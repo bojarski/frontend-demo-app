@@ -1,0 +1,17 @@
+body {
+	font-family: 'Baloo Bhai', cursive;
+}
+
+.product {
+	border: 3px solid #000530;
+	margin: 5px;
+	padding: 0 0 5px 5px;
+}
+
+.product-title {
+	margin: 0;
+}
+
+.product-description {
+	font-style: italic;
+}
