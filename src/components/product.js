@@ -15,9 +15,12 @@ function renderProduct(product) {
     // `` - template string
     return `
         <div class="product">
-		<h2 class="product-title">${product.name}</h2>
-		<div>${formatPrice(product.price)}</div>
-		<div class="product-description">${product.description.text}</div>
+        <img class=product_image src="${product.image.url}"> 
+            <div class="product_info">
+        	    <h2 class="product-title">${product.name}"</h2>
+		        <div>${formatPrice(product.price)}</div>
+		        <div class="product-description">${product.description.text}</div>
+            </div>
 		</div>
     `;
 }

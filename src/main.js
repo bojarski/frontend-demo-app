@@ -3,9 +3,7 @@ console.log(listingElement.inn);
 const response = getProductList();
 
 response.products
-    .map((product) => {
-        return renderProduct(product);
-    })
+    .map(renderProduct)
     .forEach((html) => {
         listingElement.innerHTML += html;
     })

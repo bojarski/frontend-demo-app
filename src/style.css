@@ -1,17 +1,48 @@
 body {
-	font-family: 'Baloo Bhai', cursive;
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0;
 }
 
 .product {
-	border: 3px solid #000530;
-	margin: 5px;
-	padding: 0 0 5px 5px;
+    border: 3px solid #000530;
+    margin: 5px;
+    padding: 8px 8px;
+    display: flex;
+    flex-direction: row;
 }
 
 .product-title {
-	margin: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.section {
+    background-color: white;
+}
+
+@media (min-width: 760px) {
+    .section {
+        max-width: 75%;
+    }
 }
 
 .product-description {
-	font-style: italic;
+    font-style: italic;
+}
+
+.product_image {
+    width: 128px;
+    height: 128px;
+}
+
+.product_info {
+    margin-left: 8px;
 }
